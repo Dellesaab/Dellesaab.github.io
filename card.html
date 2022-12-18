@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+<div class="album py-5">
+    <div class="container">
+      <div class="row">
+            <div class="col-15 col-sm-2">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" style="width:100%; height: 200px; background-size: cover;" src="https://i.postimg.cc/cCHSPwGz/Whats-App-Image-2022-12-01-at-2-20-46-PM.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">The Alchemist</h5>
+                  <p class="card-text">Text</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="{{ route('posts.show', $post->id) }}" class="btn btn-sm btn-outline-secondary">Button</a>
+                    </div>
+                    <small class="text-muted">More Text</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-15 col-sm-2">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" style="width:100%; height: 200px; background-size: cover;" src="https://i.postimg.cc/MGmgx5xG/Whats-App-Image-2022-12-01-at-2-31-29-PM.jpg" alt="Card image cap">
+                  <div class="card-body">
+                      <h5 class="card-title">Black Water Sister</h5>
+                    <p class="card-text">Text</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="{{ route('posts.show', $post->id) }}" class="btn btn-sm btn-outline-secondary">Button</a>
+                      </div>
+                      <small class="text-muted">More Text</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-15 col-sm-2">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" style="width:100%; height: 200px; background-size: cover;" src="https://i.postimg.cc/sfh9hXQY/Whats-App-Image-2022-12-01-at-2-28-42-PM.jpg" alt="Card image cap">
+                  <div class="card-body">
+                      <h5 class="card-title">Black Water Sister</h5>
+                    <p class="card-text">Text</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="{{ route('posts.show', $post->id) }}" class="btn btn-sm btn-outline-secondary">Button</a>
+                      </div>
+                      <small class="text-muted">More Text</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-6 p-3">
+      <mdb-card class="mb-4">
+          Card Content
+      </mdb-card>
+      <mdb-card class="mb-4">
+          Card Content
+      </mdb-card>
+      <mdb-card>
+          Card Content
+      </mdb-card>
+    </div>
+    <div class="col-20 col-sm-2" style="background-color: #1F7A8C">
+      <H3>Similar Items</H3>
+  <div class="card mb-4 box-shadow">
+  <img class="card-img-top" src="https://i.postimg.cc/cCHSPwGz/Whats-App-Image-2022-12-01-at-2-20-46-PM.jpg" alt="Card image cap">
+          <div class="d-flex justify-content-between align-items-center">
+         </div>
+      </div>
+  </div>
+    
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
